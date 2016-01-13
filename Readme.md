@@ -11,6 +11,8 @@ versions of Android have different ways to do this, but go into
 Settings->Language & Input and touch the "Current Keyboard" item, try
 toggling the "Hardware" toggle.
 
+This seems to be caused by calling `ionic.Platform.fullScreen();` in the ready function.
+
 Go back to the test app.
 
 1. Click on the "Chats" tab.
